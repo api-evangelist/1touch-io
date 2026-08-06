@@ -1,0 +1,59 @@
+generated: '2026-08-05'
+method: searched
+probe: true
+source: https://www.1touch.io/resources/trust-and-security-center
+url: https://www.1touch.io/resources/trust-and-security-center
+note: No dedicated trust portal host (trust.1touch.io / security.1touch.io do not
+  resolve). The trust content is a page on the marketing site; audit reports are
+  offered on request under NDA rather than self-served.
+certifications:
+- name: SOC 2 Type 2
+  status: audited annually
+  availability: report available on request under NDA
+- name: ISO 27001
+  status: certified
+  availability: stated on the trust page
+program:
+  name: Information Security Program (ISP)
+  areas:
+  - access controls
+  - encryption
+  - employee security training
+  - credential and key management
+  - physical security
+  - network and cloud security
+  - secure software development life cycle (SSDLC)
+platform_security:
+  encryption_in_transit: TLS 1.2/1.3 enforced
+  encryption_at_rest: AES-256
+  granularity: raw / column / value level encryption
+  customer_managed_keys: true
+  authentication: OAuth2 / OpenID with multi-factor authentication
+  api_security: token-based API gateway, rate limiting, gateway protections
+  network: VPC-based architecture with segmentation and firewall allow-listing
+  monitoring: continuous security auditing and real-time anomaly detection
+subprocessors:
+- name: Google Cloud Platform
+  location: USA
+  purpose: SaaS hosting
+- name: Coralogix
+  location: USA
+  purpose: centralized logging and analytics
+gaps:
+  status_page: none published
+  sla: none published
+  dpa: not linked from the trust page
+  terms_of_service: no terms-of-service page published (privacy and cookie policies
+    only)
+evidence:
+- source: https://www.1touch.io/resources/trust-and-security-center
+  http_status: 200
+  keywords:
+  - soc 2 type 2
+  - iso 27001
+  - information security program
+  - trust and security center
+x-evidence:
+  fetched: '2026-08-05'
+  url: https://www.1touch.io/resources/trust-and-security-center
+  http_status: 200

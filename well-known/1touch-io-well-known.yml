@@ -1,0 +1,46 @@
+generated: '2026-08-05'
+method: probed
+source: live GET of the /.well-known/ discovery surface
+host: https://www.1touch.io
+note: 'Nothing is served on the /.well-known/ surface. The Webflow-hosted marketing
+  site answers every /.well-known/* path with a 404 HTML body reading "Invalid
+  .well-known request". A control path with a random suffix returned the same 404,
+  confirming there is no soft-200 catch-all and no discovery documents to harvest.'
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+- path: /security.txt
+  status: 404
+other_hosts:
+- host: api.1touch.io
+  resolves: true
+  address: 18.156.148.123
+  https: timeout
+  note: DNS resolves to an AWS eu-central-1 address but TCP/443 and TCP/80 both time
+    out from the open internet, so no /.well-known/ surface could be probed. Almost
+    certainly network-restricted to customer tenants.
+- host: help.1touch.io
+  resolves: true
+  status: 200
+  note: MadCap Flare documentation output; content files redirect to a MadCap Central
+    "Secure Login" page, and robots.txt disallows /docs/.
+- host: docs.1touch.io
+  resolves: false
+- host: developer.1touch.io
+  resolves: false
+- host: trust.1touch.io
+  resolves: false
+- host: status.1touch.io
+  resolves: false

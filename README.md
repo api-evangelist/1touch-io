@@ -42,5 +42,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-1touch.io is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+1touch.io is an enterprise data-security and data-intelligence vendor whose Kontxtual platform (previously shipped as Inventa) discovers, classifies, maps and catalogs sensitive data across cloud, on-premises, SaaS and IBM z/OS mainframe environments. Everpure (formerly Pure Storage) completed its acquisition of 1touch.io on 2026-05-11. No public developer portal, API reference or machine-readable specification is published; product documentation sits behind a customer login.
+
+- https://www.1touch.io/
+- https://www.1touch.io/resources/trust-and-security-center
+- https://www.1touch.io/vulnerability-disclosure

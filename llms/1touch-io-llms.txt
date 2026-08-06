@@ -1,0 +1,67 @@
+# 1touch.io
+
+> Enterprise data-security and data-intelligence vendor. The Kontxtual platform
+> (previously shipped as Inventa) discovers, classifies, maps and catalogs sensitive
+> data across cloud, on-premises, SaaS and IBM z/OS mainframe environments, and
+> layers enterprise DSPM, attribute-based access control, access intelligence,
+> streaming DLP, mainframe security posture management and AI security on top of it.
+> The technology is also OEM-distributed by IBM as Guardium Discover and Classify.
+> Everpure (formerly Pure Storage, NYSE: PSTG) completed its acquisition of 1touch.io
+> on 2026-05-11.
+
+generated: 2026-08-05
+method: generated
+source: apis.yml + artifacts in this repository (no /llms.txt is published by the provider;
+https://www.1touch.io/llms.txt returns 404)
+
+## API surface
+
+1touch.io publishes **no public API**. There is no developer portal, no API reference,
+no OpenAPI/AsyncAPI/GraphQL document, no SDK on any public package registry, no public
+MCP server and no A2A agent card. Product documentation lives at https://help.1touch.io/docs/
+behind a MadCap Central secure login, and the API host `api.1touch.io` resolves but does
+not accept connections from the public internet. The platform's programmatic surface
+(REST APIs, webhooks, SDKs and 100+ third-party integrations) is described only in
+marketing glossary entries; the contracts themselves are customer-only.
+
+## Company
+
+- [1touch.io](https://www.1touch.io/): Company home.
+- [About](https://www.1touch.io/company/about-us): Company background and leadership.
+- [Partners](https://www.1touch.io/partners): Technology and channel partner program.
+- [Contact](https://www.1touch.io/contact-us): Support and sales contact.
+
+## Platform
+
+- [Kontxtual overview](https://www.1touch.io/kontxtual/overview): Platform overview.
+- [Data discovery and classification](https://www.1touch.io/kontxtual/data-discovery-classification)
+- [Enterprise DSPM](https://www.1touch.io/kontxtual/enterprise-dspm)
+- [Access intelligence](https://www.1touch.io/kontxtual/access-intelligence)
+- [Attribute-based access control](https://www.1touch.io/kontxtual/attribute-based-access-control)
+- [DLP for streaming data](https://www.1touch.io/kontxtual/dlp-for-streaming-data)
+- [Mainframe security posture management](https://www.1touch.io/kontxtual/mainframe-security-posture-management)
+- [AI security](https://www.1touch.io/kontxtual/ai-security)
+
+## Security and compliance
+
+- [Trust and Security Center](https://www.1touch.io/resources/trust-and-security-center): SOC 2 Type 2, ISO 27001, subprocessors, platform security controls.
+- [Vulnerability Disclosure Program](https://www.1touch.io/vulnerability-disclosure): Bugcrowd-hosted VDP.
+- [Privacy policy](https://www.1touch.io/legal/privacy-policy)
+- [Cookie policy](https://www.1touch.io/legal/cookie-policy)
+
+## Resources
+
+- [Blog](https://www.1touch.io/resources/blog)
+- [Knowledge vault](https://www.1touch.io/resources/knowledge-vault)
+- [Glossary](https://www.1touch.io/resources/glossary): ~170 data-security and governance terms.
+- [Webinars](https://www.1touch.io/resources/webinars)
+- [Success stories](https://www.1touch.io/resources/success-stories)
+- [Documentation (login required)](https://help.1touch.io/docs/): MadCap Central portal, customer-only.
+
+## API Evangelist artifacts
+
+- [security/1touch-io-domain-security.yml](security/1touch-io-domain-security.yml): TLS/HSTS/DNSSEC/CAA/SPF/DMARC probe.
+- [security/1touch-io-vulnerability-disclosure.yml](security/1touch-io-vulnerability-disclosure.yml)
+- [security/1touch-io-trust-center.yml](security/1touch-io-trust-center.yml)
+- [conformance/1touch-io-conformance.yml](conformance/1touch-io-conformance.yml)
+- [well-known/1touch-io-well-known.yml](well-known/1touch-io-well-known.yml): /.well-known/ probe record (all 404).

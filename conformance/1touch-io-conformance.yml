@@ -1,0 +1,73 @@
+generated: '2026-08-05'
+method: searched
+source: https://www.1touch.io/resources/trust-and-security-center
+note: 'No OpenAPI, AsyncAPI or other machine-readable contract is published, so nothing
+  here is derived from a spec. Every entry below is a claim 1touch.io publishes on
+  its own Trust and Security Center or Vulnerability Disclosure page, recorded with
+  the page it came from. Where a standard could not be verified against a public
+  artifact, conforms is null rather than true.'
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: 'Trust and Security Center: "1touch.io undergoes an annual SOC 2 Type 2
+    audit"; report available on request under NDA.'
+  source: https://www.1touch.io/resources/trust-and-security-center
+- id: iso-27001
+  conforms: true
+  evidence: 'Trust and Security Center: "1touch.io is ISO 27001 certified."'
+  source: https://www.1touch.io/resources/trust-and-security-center
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returns 404 on www.1touch.io.
+  source: https://www.1touch.io/.well-known/security.txt
+- id: coordinated-vulnerability-disclosure
+  conforms: true
+  evidence: Public Bugcrowd-hosted Vulnerability Disclosure Program with an open
+    submission form.
+  source: https://www.1touch.io/vulnerability-disclosure
+- id: oauth2
+  conforms: null
+  evidence: Trust page states the platform uses "OAuth2/OpenID standards with
+    Multi-Factor Authentication", but no authorization-server metadata, scope
+    reference or public documentation is available to verify the flows.
+  source: https://www.1touch.io/resources/trust-and-security-center
+- id: oidc
+  conforms: null
+  evidence: Same trust-page claim as oauth2; /.well-known/openid-configuration
+    returns 404 on every reachable host.
+  source: https://www.1touch.io/resources/trust-and-security-center
+- id: tls-1.2-plus
+  conforms: true
+  evidence: Trust page states "Enforced TLS 1.2+ for all communications"; the live
+    probe of www.1touch.io negotiated TLSv1.3 with HSTS max-age 31536000.
+  source: security/1touch-io-domain-security.yml
+- id: openapi
+  conforms: false
+  evidence: No OpenAPI or Swagger document found on any reachable host (see
+    x-coverage in apis.yml).
+- id: asyncapi
+  conforms: false
+  evidence: No event/streaming specification published; the product's webhook and
+    streaming capability is described in marketing glossary entries only.
+- id: rfc9457-problem-details
+  conforms: null
+  evidence: No public API contract to inspect.
+regulatory_alignment:
+  note: 'The following regimes appear in 1touch.io product/solution marketing as
+    frameworks the platform helps customers comply with. They are capabilities of
+    the product, NOT certifications held by 1touch.io, and are recorded here only
+    to describe the compliance domain the vendor operates in.'
+  frameworks:
+  - GDPR
+  - CCPA / CPRA
+  - HIPAA
+  - PCI DSS v4.0
+  - NYDFS Part 500
+  - DORA
+  - NIS2
+  - GLBA
+  - SOX
+  - Quebec Law 25
+  - NIST AI RMF
+  - ISO/IEC 42001
+  source: https://www.1touch.io/resources/glossary

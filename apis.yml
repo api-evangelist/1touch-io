@@ -1,7 +1,18 @@
 aid: 1touch-io
 name: 1touch.io
-description: '1touch.io is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: '1touch.io is an enterprise data-security and data-intelligence vendor
+  whose Kontxtual platform (previously shipped as Inventa) performs automated, near
+  real-time discovery, classification, mapping and cataloging of sensitive data across
+  cloud, on-premises, SaaS and IBM z/OS mainframe environments. The platform combines
+  passive network analysis, ML/NLP classification and an LLM-driven contextual graph
+  to deliver enterprise DSPM, attribute-based access control, access intelligence,
+  DLP for streaming data, mainframe security posture management, cryptographic discovery
+  and AI security. The technology is also OEM-distributed by IBM as Guardium Discover
+  and Classify. Everpure (formerly Pure Storage, NYSE: PSTG) completed its acquisition
+  of 1touch.io on 2026-05-11. Product documentation is published to a MadCap Central
+  portal that requires a customer login, and no public developer portal, API reference
+  or machine-readable specification is available.'
+image: https://cdn.prod.website-files.com/66c7d1456cadd6a7c0d9b336/6a04f52a14465da1c82c33e8_68e91c7569e51953a3b740fe_a942d4_f57651eebc6c4161a04456c4fd56709c_mv2.png
 url: https://raw.githubusercontent.com/api-evangelist/1touch-io/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +23,16 @@ created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- Data Security
+- Data Discovery
+- Data Classification
+- DSPM
+- Data Governance
+- Privacy
+- Compliance
+- Mainframe
+- Access Control
+- AI Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +41,49 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.1touch.io/
+- type: Blog
+  url: https://www.1touch.io/resources/blog
+- type: Support
+  url: https://www.1touch.io/contact-us
+- type: PrivacyPolicy
+  url: https://www.1touch.io/legal/privacy-policy
+- type: Security
+  url: https://www.1touch.io/vulnerability-disclosure
+- type: VulnerabilityDisclosure
+  url: security/1touch-io-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/1touch-io-trust-center.yml
+- type: Compliance
+  url: https://www.1touch.io/resources/trust-and-security-center
+- type: DomainSecurity
+  url: security/1touch-io-domain-security.yml
+- type: Conformance
+  url: conformance/1touch-io-conformance.yml
+- type: LLMsTxt
+  url: llms/1touch-io-llms.txt
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: The only product documentation 1touch.io publishes sits at help.1touch.io/docs/
+    as a MadCap Flare output whose content files all redirect to a MadCap Central
+    "Secure Login" page (a random control path returns the identical login body),
+    and the API host api.1touch.io resolves to 18.156.148.123 but times out on both
+    443 and 80 from the public internet.
+  evidence:
+  - url: https://help.1touch.io/docs/Data/Toc.js
+    status: 200
+  - url: https://help.1touch.io/robots.txt
+    status: 200
+  - url: https://www.1touch.io/.well-known/agent-card.json
+    status: 404
+  - url: https://www.1touch.io/openapi.json
+    status: 404
+  - url: https://www.1touch.io/llms.txt
+    status: 404
+  checked: '2026-08-05'
