@@ -12,6 +12,17 @@ description: '1touch.io is an enterprise data-security and data-intelligence ven
   of 1touch.io on 2026-05-11. Product documentation is published to a MadCap Central
   portal that requires a customer login, and no public developer portal, API reference
   or machine-readable specification is available.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/66c7d1456cadd6a7c0d9b336/6a04f52a14465da1c82c33e8_68e91c7569e51953a3b740fe_a942d4_f57651eebc6c4161a04456c4fd56709c_mv2.png
 url: https://raw.githubusercontent.com/api-evangelist/1touch-io/refs/heads/main/apis.yml
 x-type: company
