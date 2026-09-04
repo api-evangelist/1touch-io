@@ -23,6 +23,18 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://cdn.prod.website-files.com/66c7d1456cadd6a7c0d9b336/6a04f52a14465da1c82c33e8_68e91c7569e51953a3b740fe_a942d4_f57651eebc6c4161a04456c4fd56709c_mv2.png
 url: https://raw.githubusercontent.com/api-evangelist/1touch-io/refs/heads/main/apis.yml
 x-type: company
