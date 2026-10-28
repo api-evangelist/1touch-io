@@ -64,8 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-1touch.io is an enterprise data-security and data-intelligence vendor whose Kontxtual platform (previously shipped as Inventa) discovers, classifies, maps and catalogs sensitive data across cloud, on-premises, SaaS and IBM z/OS mainframe environments. Everpure (formerly Pure Storage) completed its acquisition of 1touch.io on 2026-05-11. No public developer portal, API reference or machine-readable specification is published; product documentation sits behind a customer login.
+1touch.io is an enterprise data-security and data-intelligence vendor whose Kontxtual platform (previously shipped as Inventa) performs automated, near real-time discovery, classification, mapping and cataloging of sensitive data across cloud, on-premises, SaaS and IBM z/OS mainframe environments. The platform combines passive network analysis, ML/NLP classification and an LLM-driven contextual graph to deliver enterprise DSPM, attribute-based access control, access intelligence, DLP for streaming data, mainframe security posture management, cryptographic discovery and AI security. The technology is also OEM-distributed by IBM as Guardium Discover and Classify. Everpure (formerly Pure Storage, NYSE: PSTG) completed its acquisition of 1touch.io on 2026-05-11. Product documentation is published to a MadCap Central portal that requires a customer login, and no public developer portal, API reference or machine-readable specification is available.
 
-- https://www.1touch.io/
-- https://www.1touch.io/resources/trust-and-security-center
-- https://www.1touch.io/vulnerability-disclosure
+**Areas:** Company · Data Security · Data Discovery · Data Classification · DSPM · Data Governance · Privacy · Compliance · Mainframe · Access Control · AI Security
+
+## 1touch.io on APIs.io
+
+Everything profiled for 1touch.io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/1touch-io/](https://apis.io/providers/1touch-io/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [1Touch Io Domain Security](https://apis.io/security/1touch-io/1touch-io-domain-security/)
+- [1Touch Io Trust Center](https://apis.io/security/1touch-io/1touch-io-trust-center/)
+- [1Touch Io Vulnerability Disclosure](https://apis.io/security/1touch-io/1touch-io-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.1touch.io/)
+- [Support](https://www.1touch.io/contact-us)
+- [Blog](https://www.1touch.io/resources/blog)
+- [Security](https://www.1touch.io/vulnerability-disclosure)
+- [Compliance](https://www.1touch.io/resources/trust-and-security-center)
+- [Privacy policy](https://www.1touch.io/legal/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 17.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 26.3 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/1touch-io/](https://apis.io/providers/1touch-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 1touch.io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/1touch-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
