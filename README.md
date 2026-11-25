@@ -80,9 +80,9 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [1Touch Io Domain Security](https://apis.io/security/1touch-io/1touch-io-domain-security/)
-- [1Touch Io Trust Center](https://apis.io/security/1touch-io/1touch-io-trust-center/)
-- [1Touch Io Vulnerability Disclosure](https://apis.io/security/1touch-io/1touch-io-vulnerability-disclosure/)
+- [1touch.io Domain Security](https://apis.io/security/1touch-io/1touch-io-domain-security/)
+- [1touch.io Trust Center](https://apis.io/security/1touch-io/1touch-io-trust-center/)
+- [1touch.io Vulnerability Disclosure](https://apis.io/security/1touch-io/1touch-io-vulnerability-disclosure/)
 
 ## Where to find this API
 
@@ -97,16 +97,16 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 17.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 17.9** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
 | Discoverability | 55.4 |
 | Contract quality | 0.0 |
 | Contract governance | 18.2 |
-| Operational transparency | 10.5 |
+| Operational transparency | 9.5 |
 | Developer ergonomics | 7.1 |
-| Access clarity | 26.3 |
+| Access clarity | 29.8 |
 
 **Agent readiness 0.0** — human-only
 
@@ -131,6 +131,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
 
